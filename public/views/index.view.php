@@ -1,11 +1,10 @@
 <?php require 'partials/header.php'; ?>
 
-<h1>User Page</h1>
+<h1>IMDB Clone</h1>
 
-<ul>
-    <?php foreach ($users as $user) : ?>
-        <li><strong>ID: </strong><?= $user->id; ?> Name: <?= $user->name; ?></li>
-    <?php endforeach; ?>
-</ul>
+<form action="/insert" method="post">
+    <input type="text" name="name" id="">
+    <button type="submit">Submit</button>
+</form>
 
 <?php require 'partials/footer.php'; ?>
