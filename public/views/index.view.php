@@ -1,6 +1,6 @@
 <?php require 'partials/header.php'; ?>
 
-<h1>IMDB Clone</h1>
+<h1>User Inputs</h1>
 
 <form action="/insert" method="post">
     <input type="text" name="name" id="">
